@@ -4,18 +4,18 @@ import './Sidebar.css';
 
 export default function Side() {
 
-	const [ navWidth, setNavWidth ] = useState('0px');
-	const [ backdrop, setBackdrop ] = useState('none');
-	const [ menuicon, setMenuIcon ] = useState('block');
+	const [ navWidth, setNavWidth ] = useState('200px');
+	const [ backdrop, setBackdrop ] = useState('block');
+	const [ menuicon, setMenuIcon ] = useState('none');
 
 	function openNav() {
-		setNavWidth(navWidth === '0px' ? '200px' : '0px');
+		setNavWidth(navWidth === '200px' ? '0px' : '200px');
 		setBackdrop(backdrop === 'none' ? 'block' : 'none');
-		setMenuIcon(menuicon === 'block' ? 'none' : 'block');
+		setMenuIcon(menuicon === 'none' ? 'block' : 'none');		
 	}
 
 	function closeNav() {
-		setNavWidth(navWidth === '200px' ? '0px' : '0px');
+		setNavWidth(navWidth === '200px' ? '0px' : '200px');
 		setBackdrop(backdrop === 'block' ? 'none' : 'none');
 		setMenuIcon(menuicon === 'none' ? 'block' : 'none');
 	}
