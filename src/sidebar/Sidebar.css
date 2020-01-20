@@ -77,4 +77,8 @@ li {
 		overflow-x: hidden;
 		transition: 0.5s;
 	}
+
+	.right {
+		margin: 0;
+	}
 }
