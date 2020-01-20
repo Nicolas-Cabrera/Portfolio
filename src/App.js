@@ -2,6 +2,7 @@ import React from 'react';
 import Sidebar from './sidebar/Sidebar';
 import Home from './Home/Home';
 import About from './About/About';
+import Skills from './Skills/Skills';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 		<div className='right'>
 			<Home />
 			<About />
+			<Skills />
 		</div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import Typewriter from 'typewriter-effect';
+import Type from '../Type';
 import './About.css';
 
 const About = () => {
@@ -7,19 +7,7 @@ const About = () => {
 		<div>
 			<div className='section' id='about'>
 				<div className='title'>
-					<Typewriter
-						onInit={(typewriter) => {
-							typewriter.typeString('Welcome')
-								.callFunction(() => {
-									//console.log('String typed out!');
-								})
-								.pauseFor(2000)
-								.callFunction(() => {
-									//console.log('All strings were deleted');
-								})
-								.start();
-						}}
-					/>
+					<Type text='Welcome...' />
 				</div>
 				<div className='about-me-paragraph'>
 					<h2>A Full Stack Developer with passion for learning and developing all sorts of apps</h2>
