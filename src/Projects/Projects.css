@@ -1,0 +1,30 @@
+#projects {
+	background-color: white;
+}
+
+.project-sec {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+    padding: 20px;
+}
+
+.proj-item {
+    text-align: center;
+	flex: 1;
+	flex-basis: 200px;
+	margin: 10px 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 50px;
+	overflow: hidden;
+    padding: 10px;
+}
+
+.proj-item:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+
+.project-image {
+	position: relative;
+	right: 40%;
+}

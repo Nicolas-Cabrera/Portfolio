@@ -1,6 +1,5 @@
 import React from 'react';
 import './Skills.css';
-import Type from '../Type';
 import js from '../images/js.png';
 import react from '../images/react.png';
 import c from '../images/c.PNG';
@@ -14,9 +13,7 @@ const Skills = () => {
     return (
         <div>
             <div className='section' id='skills'>
-				<div>
-					<Type text='Skills' />
-				</div>			
+				<h1>Skills</h1>			
                 <div className='skills-row'>
                     <img className='skill-item' src={js} alt='js' />
                     <img className='skill-item' src={react} alt='react' />

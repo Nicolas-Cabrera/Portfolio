@@ -12,3 +12,16 @@ html {
 	text-align: center;
     padding: 20px;
 }
+
+h1 {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 50px;
+	text-align: center;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Courier New', Courier, monospace;
+}
