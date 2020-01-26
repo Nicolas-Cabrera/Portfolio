@@ -16,9 +16,18 @@ const Contact = () => {
                             <h3>Nicolascc1@hotmail.com</h3>
                         </div>
                         <div>
-                            <img className='icon' src={email} alt='email logo' />
-                            <img className='icon' src={linkedin} alt='linkedin logo' />
-                            <img className='icon' src={github} alt='github logo' />
+                            <a href='mailto:nicolascc1@hotmail.com'
+							target='_blank' rel="noopener noreferrer">
+								<img className='icon' src={email} alt='email logo' />
+							</a>
+							<a href='https://github.com/Nicolas-Cabrera'
+							target='_blank' rel="noopener noreferrer">
+								<img className='icon' src={linkedin} alt='linkedin logo' />
+							</a>
+							<a href='https://www.linkedin.com/in/nicolas-cabrera-32a80b171/'
+							target='_blank' rel="noopener noreferrer">
+								<img className='icon' src={github} alt='github logo' />
+							</a>
                         </div>
                     </div>
 
