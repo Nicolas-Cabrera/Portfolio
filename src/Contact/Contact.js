@@ -12,7 +12,7 @@ const Contact = () => {
                     <div className='footer'>
                         <div>
                             <h3>Nicolas Cabrera</h3>
-                            <h3>London, UK</h3>
+                            <h3>London, United Kingdom</h3>
                             <h3>Nicolascc1@hotmail.com</h3>
                         </div>
                         <div>
